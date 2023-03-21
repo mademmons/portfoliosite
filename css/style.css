@@ -112,9 +112,8 @@ p {
 }
 
 .button:hover {
-	border: 4px solid #4a0027; /*burgandee*/
 	border-radius: 6px;
-	background-color: rebeccapurple;
+	background-color: #363636;
 	text-decoration: none;
 }
 
