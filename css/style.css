@@ -134,14 +134,10 @@ p {
 .email:hover {
 	display: inline-block;
 	background-color: #363636; /*gray*/
-	border: 4px solid #b86e0d; /*orange*/
-	border-radius: 6px;
-	padding: 5px 32px;
+	border: 4px solid #606262; /*lightgray*/
 	text-decoration: none;
 	text-align: center;
-	font-weight: 500;
-	font-size: 1.3125em;
-	color: #b86e0d; /*Orange*/
+	color: #606262; /*lightgray*/
 	cursor: pointer;
 	align-items: center;
 }
