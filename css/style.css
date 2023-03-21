@@ -234,17 +234,17 @@ nav > ul > li > a.active {
 	color: #b86e0d;
 }
 
-social > ul {
+footer > ul {
 	list-style-type: none;
 	padding: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-social > ul > li {
+footer > ul > li {
 	display: inline-block;
 }
-social > ul > li > a {
+footer > ul > li > a {
 	text-decoration: none;
 	padding: 0 8px;
 }
