@@ -217,9 +217,7 @@ nav > ul {
 	list-style-type: none;
 	margin-top: 35px;
 }
-nav > ul > li {
-	display: inline-block;
-}
+
 nav > ul > li > a {
 	text-decoration: none;
 	padding: 0 8px;
@@ -369,6 +367,9 @@ Medium devices (640px and larger)
 		width: auto;
 		float: right;
 	}
+  nav > ul > li {
+    display: inline-block;
+  }
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
