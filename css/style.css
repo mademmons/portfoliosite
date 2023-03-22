@@ -348,7 +348,11 @@ footer > ul > li > a {
 
 .col-sm-12 {
   width: 100%;
-}
+} 
+  header {
+    padding:20px 0 13px;
+    }
+
 
 /* ==============================
 Medium devices (640px and larger)
