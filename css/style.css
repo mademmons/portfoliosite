@@ -345,6 +345,12 @@ footer > ul > li > a {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  font-size: 20px;
+}
 
 [class*='col-'] {
 	float: left;
@@ -381,6 +387,9 @@ Medium devices (640px and larger)
   }
   .navtoggle li:last-child {
     display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
   }
   
   #hero h1 {
