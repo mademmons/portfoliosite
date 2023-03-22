@@ -339,6 +339,10 @@ footer > ul > li > a {
 	animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 [class*='col-'] {
 	float: left;
 	padding: 0 10px;
@@ -355,7 +359,7 @@ footer > ul > li > a {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
 	.col-md-6 {
 		width: 50%;
 	}
@@ -374,6 +378,9 @@ Medium devices (640px and larger)
   }
   .navtoggle li:last-child {
     display: none;
+  }
+  #hero h1 {
+    text-size-adjust: 1.5em;
   }
 }
 
