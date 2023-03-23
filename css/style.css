@@ -235,6 +235,10 @@ nav > ul > li > a.active {
 	color: #b86e0d;
 }
 
+main {
+  padding-top: 56px;
+}
+
 footer > ul {
 	list-style-type: none;
 	padding: 0px;
@@ -351,6 +355,9 @@ footer > ul > li > a {
   top: 30px;
   font-size: 20px;
   margin-right: 15px;
+}
+.navtoggle.responsive li  {
+  display: block;
 }
 
 [class*='col-'] {
