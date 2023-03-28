@@ -95,7 +95,7 @@ p {
 }
 
 .p2 {
-	font-size: 1em;
+	font-size: 0.75em;
 	font-weight: 400;
 	color: #ffffff;
 	margin-bottom: 1em;
@@ -118,6 +118,7 @@ p {
 .button:hover {
 	border-radius: 6px;
 	background-color: #363636;
+	border: 0.25em solid #363636;
 	text-decoration: none;
 }
 
