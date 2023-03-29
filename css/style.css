@@ -203,6 +203,7 @@ p {
 #about-page h3 {
 	margin-top: 0;
 }
+
 header {
 	width: 100%;
 	background-color: white;
@@ -301,7 +302,7 @@ footer > ul > li > a {
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
-	align-content: center;
+	
 }
 
 .row::after {
@@ -388,6 +389,9 @@ h2 {
 p {
 	font-size: 1em;
 }
+.marissa-demmons {
+	font-size: 2em;
+}
   header {
     padding:20px 0 13px;
   }
@@ -408,6 +412,9 @@ Medium devices (640px and larger)
 	}
 	p {
 		font-size: 1em;
+	}
+	.marissa-demmons {
+		font-size: 3em;
 	}
 	header {
 		padding: 20px 0 13px;
