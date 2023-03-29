@@ -20,8 +20,6 @@ img {
 	width: 100%;
 	height: auto;
 	max-width: 1024px;
-	align-items: center;
-
 }
 #logo {
 	margin-left: 20px;
@@ -34,6 +32,7 @@ img {
 }
 picture {
 	width: 100%;
+	align-content: center;
 }
 
 h1,
@@ -209,7 +208,6 @@ header {
 	background-color: white;
 	border-bottom: 3px solid #4a0027;
 	position: fixed;
-	
 }
 
 nav {
@@ -242,7 +240,6 @@ nav > ul > li > a.active {
 main {
   padding-top: 56px;
 }
-
 footer > ul {
 	list-style-type: none;
 	padding: 0px;
