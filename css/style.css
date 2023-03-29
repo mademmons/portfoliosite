@@ -41,14 +41,12 @@ h5 {
 }
 
 h1 {
-	font-size: 3em;
 	font-weight: 700;
 	color: #4a0027;
 	margin-top: 4em;
 }
 
 h2 {
-	font-size: 2.25em;
 	font-weight: 500;
 	color: #4a0027;
 	margin-bottom: 1.125em;
@@ -372,21 +370,33 @@ footer > ul > li > a {
 	float: left;
 	padding: 0 10px;
 }
-
+@media only screen and (min-width: 200px){
 .col-sm-12 {
   width: 100%;
 } 
+h1 { 
+	font-size: 1.75em;
+}
+h2 {
+	font-size: 1.75em;
+}
   header {
     padding:20px 0 13px;
     }
 
-
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 	.col-md-6 {
 		width: 50%;
+	}
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 2em;
 	}
 	header {
 		padding: 20px 0 13px;
@@ -423,6 +433,12 @@ Large devices (1024px or larger)
 		text-align: unset;
 		padding: 20px 0 13px;
 	}
+	h1 {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 2em;
+	}
 	nav {
 		width: auto;
 		float: right;
@@ -442,6 +458,12 @@ X-large devices (1440px or larger)
 		text-align: unset;
 		padding: 20px 0 13px;
 	}
+	h1 {
+		font-size: 3.25em;
+	}
+	h2{
+		font-size: 2.25em;
+	}
 	nav {
 		width: auto;
 		float: right;
@@ -454,6 +476,12 @@ Extra-large devices (1920px or larger)
 	header {
 		text-align: unset;
 		padding: 20px 0 13px;
+	}
+	h1 {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 2.25em;
 	}
 	nav {
 		width: auto;
